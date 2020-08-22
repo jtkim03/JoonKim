@@ -114,3 +114,15 @@ h1.display-4 {
 h4 {
     font-size: larger;
 }
+
+
+@media screen and ( max-width: 1024px ) {
+img.responsive { width: 200px;}
+p.responsive { font-size: 20px;}
+h1.display-4 {font-size: 40px;}
+}
+@media screen and ( min-width: 1025px) {
+img.responsive { width: 250px;}
+p.responsive { font-size: 20px;}
+}
+img.responsive { height: auto; }
